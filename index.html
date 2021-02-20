@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Quiz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+</head>
+<body>
+    <header> Quiz</header>
+    <div class="main">
+        <h1>Veillez choisir la difficulté</h1>
+        <section>
+            <input type="radio" name="difficulte" id="novice">
+            <label for="novice">Novice</label>
+            <input type="radio" name="difficulte" id="difficileMode">
+            <label for="difficileMode">Expert</label>
+        </section>
+        <button class="suivant">Suivant</button>
+        <ul class="questions">
+            <!-- 
+                Utilisez l'élément LI suivant comme gabarit pour l'affichage
+                des questions (dans votre code JavaScript).
+                
+                Ajoutez ou retranchez la classe "accomplie" sur le même élément LI 
+                (dans votre code JavaScript) pour le montrer biffé (complété) ou non.
+            -->
+        </ul>
+        <div class="boutonsBas">
+            <button class="soumettre">Soumettre la réponse</button>
+            <button class="abandonne">Abandonner</button> 
+            <button class="reset"> Recommencer</button>
+        </div>
+    </div>
+    <script src="js/questions.data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

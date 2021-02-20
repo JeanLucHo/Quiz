@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box
+}
+/*************************************** Règles générales******************************************/
+html {
+    height: 100%;
+    width: 100%;
+    font-family: 'Dosis', sans-serif; 
+    margin:auto;
+    background-image: url(../images/8478-library-background-image_17509.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body{
+    width:60%;
+    margin: auto;
+}
+header{
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+}
+h1{
+    padding-top: 1rem;
+    font-weight: 700
+}
+div{
+    text-align: center;
+    font-weight: 600;
+    color: #4e4e4e;
+    list-style: none;
+    text-decoration: none;
+    background-color:whitesmoke;
+    border-radius: 2rem;
+    margin-top: 0.5rem;
+
+}
+div.main{
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0px 0px 30px 2px rgba(5,5,5,5);
+}
+ul{
+    padding-left: 0px;
+}
+
+.fautChoisir{
+    color: red;
+}
+p.question{
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+section div:hover{
+background-color: lightblue;
+}
+
+/*************************************** Choix de réponse ******************************************/
+#choixSection1,
+#choixSection2,
+#choixSection3,
+#choixSection4
+{
+    padding: 0.5rem 0px;
+}
+
+
+
+/* input[type= radio]:checked + label {
+    font-size: 1.5rem;
+    font-weight: 700
+  }  */
+
+/* label{
+    display:-webkit-inline-box;
+    width:50%;
+    cursor:pointer;
+
+}
+
+input{
+    margin-left: 30rem;
+} */
+
+/*************************************** Buttons en général ***************************************************/
+button{
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    font-size: 10em;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+div.boutonsBas{
+    padding-bottom: 2rem;
+}
+/*************************************** Button "Suivant" ******************************************/
+
+.suivant{
+    margin-top: 10px;
+    background-color: #ddb207;
+    height: 2em;
+    width: 10em;
+    /* display: none; */
+    
+
+}
+.suivant:hover {
+    background-color: #a5860b;
+}
+/*************************************** Button "Soumettre" ******************************************/
+
+.soumettre{
+    height: 3em;
+    width: 15em;
+    background-color: #3AB54F;
+    margin-top: 10rem;
+    display: none;
+}
+.soumettre:hover{
+    background-color:darkgreen;
+}
+
+/*************************************** Button "Abondonné ******************************************/
+
+.abandonne{
+    background-color:#DE2C1E;
+    height: 3em;
+    margin-top: 1rem;
+    width: 10em;
+    display: none;
+}
+.abandonne:hover{
+    background-color: darkred;
+}
+
+/*************************************** Button Recommencer ******************************************/
+.reset{
+    display: none;
+    height: 3em;
+    margin-top: 1rem;
+    background-color: lightgray;
+}
+
+.reset:hover{
+    background-color: gray;
+}
+
+
+
+
+
